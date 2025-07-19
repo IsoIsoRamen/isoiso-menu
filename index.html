@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen House Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #fafafa;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .menu-section {
+            margin-bottom: 20px;
+        }
+        .menu-section h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 600px) {
+            .menu-item {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ramen House</h1>
+        <p>Authentic Japanese Ramen</p>
+    </header>
+    
+    <section class="menu-section">
+        <h2>Signature Ramen</h2>
+        <div class="menu-item"><span>Shoyu Ramen</span><span>$13</span></div>
+        <div class="menu-item"><span>Tonkotsu Ramen</span><span>$14</span></div>
+        <div class="menu-item"><span>Miso Ramen</span><span>$13</span></div>
+        <div class="menu-item"><span>Spicy Tantanmen</span><span>$14</span></div>
+    </section>
+
+    <section class="menu-section">
+        <h2>Side Dishes</h2>
+        <div class="menu-item"><span>Gyoza (5 pcs)</span><span>$6</span></div>
+        <div class="menu-item"><span>Edamame</span><span>$4</span></div>
+        <div class="menu-item"><span>Karaage Chicken</span><span>$8</span></div>
+    </section>
+
+    <section class="menu-section">
+        <h2>Beverages</h2>
+        <div class="menu-item"><span>Green Tea</span><span>$3</span></div>
+        <div class="menu-item"><span>Ramune Soda</span><span>$4</span></div>
+        <div class="menu-item"><span>Asahi Beer</span><span>$6</span></div>
+    </section>
+</body>
+</html>
